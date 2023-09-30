@@ -1,0 +1,226 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/* body */
+/* ************************************* */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text-nav{
+    font-size: 34px;
+}
+
+.text-midashi{
+    font-size: 34px;
+    text-align: center;
+}
+.text-namae {
+    font-size: 24px;
+}
+
+.text-bunsyo {
+    font-size: 18px;
+}
+
+.text-copyright {
+    font-size: 18px;
+}
+
+/*================
+ 769px- 用のスタイル 
+=================*/
+@media screen and (min-width: 768px) {
+
+/* main */
+/* ************************************* */
+
+/* nav */
+.myprofile {
+    border: 3px solid black ;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a {
+text-decoration: none;
+margin-left: 20px;
+}
+nav a:link {
+color: #0d0d0d;
+}
+nav a:visited {
+color: #0d0d0d;
+}
+nav a:hover {
+color: #0d0d0d;
+}
+nav a:active {
+color: #0d0d0d;
+}
+
+/* MainVisual section*/
+#mainvisual {
+    text-align: center;
+}
+#mainvisual > img {
+    height: 400px;
+}
+
+/* About section */
+#about > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#about-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+#about > div > div {
+    text-align: left;
+    font-size: 18px;
+}
+
+.text-namae {
+    list-style: none;
+}
+
+/* Works section */
+
+#works{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+#works-div1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#works-div1 > div {
+    width: 30%;
+} 
+
+#works-div1 > div > img {
+    width: 100%;
+}
+
+#works-div1 > div > p {
+    font-size: 18px;
+}
+
+/* footer */
+/* ************************************* */
+footer > p {
+    text-align: center;
+    font-size: 18px;
+}
+
+}
+
+/*================
+ - 766px 用のスタイル 
+=================*/
+
+@media screen and (max-width: 767px) {
+    
+    /* main */
+/* ************************************* */
+
+/* nav */
+.myprofile {
+    border: 3px solid black ;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a {
+text-decoration: none;
+margin-left: 20px;
+}
+nav a:link {
+color: #0d0d0d;
+}
+nav a:visited {
+color: #0d0d0d;
+}
+nav a:hover {
+color: #0d0d0d;
+}
+nav a:active {
+color: #0d0d0d;
+}
+
+/* MainVisual section*/
+#mainvisual {
+    text-align: center;
+}
+#mainvisual > img {
+    height: 400px;
+}
+
+/* About section */
+#about > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#about-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+#about > div > div {
+    text-align: left;
+}
+
+.text-namae {
+    list-style: none;
+}
+
+/* Works section */
+
+#works{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+#works-div1 > div {
+    width: 90%;
+    margin-left: 5%;
+} 
+
+#works-div1 > div > img {
+    width: 100%;
+}
+
+#works-div1 > div > p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* footer */
+/* ************************************* */
+footer > p {
+    text-align: center;
+    font-size: 18px;
+}
+
+}
